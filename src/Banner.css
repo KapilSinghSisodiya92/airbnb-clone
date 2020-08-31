@@ -1,0 +1,41 @@
+.banner {
+  height: 50vh;
+  position: relative;
+  background: url("https://thumbor.forbes.com/thumbor/2000x1009/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5cdb058a5218470008b0b00f%2F0x0.jpg%3Ffit%3Dscale")
+    center center;
+}
+
+.banner__info {
+  color: white;
+  padding-top: 8vh;
+  padding-left: 50px;
+  padding-bottom: 40px;
+  padding-right: 50px;
+  width: 300px;
+  height: 150px;
+}
+
+.banner_searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
